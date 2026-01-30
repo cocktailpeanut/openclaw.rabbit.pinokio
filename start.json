@@ -1,0 +1,12 @@
+{
+  "run": [
+    {
+      "method": "shell.run",
+      "params": {
+        "shell": "{{which('bash')}}",
+        "input": true,
+        "message": "curl -fsSL https://rabbit.tech/r1-moltbot.sh | bash"
+      }
+    }
+  ]
+}
